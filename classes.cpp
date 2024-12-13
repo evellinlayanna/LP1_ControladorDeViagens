@@ -42,6 +42,10 @@ public:
     std::string getNome() const { return nome; }
     char getTipo() const { return tipo; }
     int getCapacidade() const { return capacidade; }
+    
+    void setTipo(char novoTipo) { tipo = novoTipo; }
+    void setCapacidade(int novaCapacidade) { capacidade = novaCapacidade; }
+
 };
 
 class Passageiro {
