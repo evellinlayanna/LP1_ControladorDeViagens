@@ -25,4 +25,4 @@ Code, Compile, Run and Debug online from anywhere in world.*
 
 *main*
 
-7. Após essa configuração, clique no botão "Run", localizado no canto superior direito da tela. O código deverá ser executado com sucesso em um terminal que aparecerá na parte debaixo da tela.
+6. Após essa configuração, clique no botão "Run", localizado no canto superior direito da tela. O código deverá ser executado com sucesso em um terminal que aparecerá na parte debaixo da tela.
