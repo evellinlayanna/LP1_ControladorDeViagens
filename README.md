@@ -1,8 +1,8 @@
-- CONTROLADOR DE VIAGENS
+CONTROLADOR DE VIAGENS
 
 O objetivo deste trabalho é aplicar os conceitos de programação orientada a objetos em C++ para desenvolver um sistema completo de controle de viagens, consolidando o aprendizado adquirido ao longo do curso. Esse sistema permite gerenciar o tráfego entre cidades, considerando diferentes tipos de trajeto e meios de transporte. Permite o cadastro de cidades, trajetos, transportes e passageiros, além de calcular e simular viagens entre as cidades.
 
-- COMO RODAR O PROJETO NO GDB ONLINE
+COMO RODAR O PROJETO NO GDB ONLINE
 
 1. Abra o navegador e vá para https://www.onlinegdb.com.
 
@@ -12,7 +12,7 @@ O objetivo deste trabalho é aplicar os conceitos de programação orientada a o
 
 4. No OnlineGDB e clique no botão "Upload Files" (no canto superior esquerdo, próximo ao nome da linguagem). Selecione todos os arquivos individuais que você baixou e faça o upload.
 
-5. O GDB pode criar automaticamente um arquivo main.cpp para você, ele costuma ter essa cara:
+5. O GDB pode criar automaticamente um arquivo main.cpp e você não poderá remove-lo, o GDB não permite. Então deverá copiar e colar o conteúdo do arquivo main.cpp do projeto nesse outro arquivo main, e apagar o que veio do projeto. O arquivo automático costuma ter essa cara:
 
 /******************************************************************************
 
@@ -29,7 +29,5 @@ Code, Compile, Run and Debug online from anywhere in world.*
     std::cout<<"Hello World";*
     *return 0;
 }*
-
-Você não poderá remove-lo, o GDB não permite, então deverá copiar e colar o conteúdo do arquivo main.cpp do projeto nesse outro arquivo main, e apagar o que veio do projeto.
 
 7. Após essa configuração, clique no botão "Run", localizado no canto superior direito da tela. O código deverá ser executado com sucesso em um terminal que aparecerá na parte debaixo da tela.
