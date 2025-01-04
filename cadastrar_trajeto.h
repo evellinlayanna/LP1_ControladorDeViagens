@@ -4,6 +4,6 @@
 #include <vector>
 #include "classes.h"
 
-void cadastrarTrajeto(std::vector<Cidade*>& cidades, std::vector<Transporte*>& transportes, std::vector<Trajeto*>& trajetos);
+void cadastrarTrajeto(std::vector<Cidade*>& cidades, std::vector<Trajeto*>& trajetos);
 
 #endif // CADASTRAR_TRAJETO_H

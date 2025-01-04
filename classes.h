@@ -5,7 +5,6 @@
 #include <vector>
 
 class Cidade {
-private:
     std::string nome;
 
 public:
@@ -59,15 +58,16 @@ public:
     void setCidadeAtual(Cidade* novaCidade) { cidadeAtual = novaCidade; }
 };
 
-
 class Passageiro {
-private:
     std::string nome;
+    Cidade* cidadeAtual;
 
 public:
-    Passageiro(const std::string& nome) : nome(nome) {}
+    Passageiro(const std::string& nome, Cidade* cidadeAtual = nullptr): nome(nome), cidadeAtual(cidadeAtual) {}
     std::string getNome() const { return nome; }
+    Cidade* getCidadeAtual() const { return cidadeAtual; }
 };
+
 
 class Viagem {
 private:

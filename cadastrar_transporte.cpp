@@ -2,10 +2,6 @@
 #include <iostream>
 
 void cadastrarTransporte(std::vector<Cidade*>& cidades, std::vector<Transporte*>& transportes) {
-    if (cidades.empty()) {
-        std::cerr << "\nNenhuma cidade cadastrada. Cadastre uma cidade antes de registrar um transporte.\n";
-        return;
-    }
 
     std::string nome;
     char tipo;
@@ -21,6 +17,12 @@ void cadastrarTransporte(std::vector<Cidade*>& cidades, std::vector<Transporte*>
 
     std::cout << "Digite o tipo do transporte (A aquático, T terrestre): ";
     std::cin >> tipo;
+    tipo = toupper(tipo); // Converte para maiúscula
+
+    if (tipo != 'T' && tipo != 'A') {
+            std::cerr << "\nTipo de transporte inválido. Use 'A' para aquático ou 'T' para terrestre e tente novamente." << std::endl;
+            return;
+    }
 
     std::cout << "Digite a capacidade do transporte: ";
     std::cin >> capacidade;
@@ -34,7 +36,7 @@ void cadastrarTransporte(std::vector<Cidade*>& cidades, std::vector<Transporte*>
     std::cout << "Digite o tempo de descanso (horas): ";
     std::cin >> tempoDeDescanso;
 
-    // Lista as cidades
+    // Lista as cidadesl
     std::cout << "\nCidades cadastradas:\n";
     for (size_t i = 0; i < cidades.size(); ++i) {
         std::cout << "ID: " << i << ", Nome: " << cidades[i]->getNome() << "\n";
