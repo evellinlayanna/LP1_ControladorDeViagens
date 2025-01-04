@@ -2,8 +2,9 @@ CONTROLADOR DE VIAGENS
 
 O objetivo deste trabalho é aplicar os conceitos de programação orientada a objetos em C++ para desenvolver um sistema completo de controle de viagens, consolidando o aprendizado adquirido ao longo do curso. Esse sistema permite gerenciar o tráfego entre cidades, considerando diferentes tipos de trajeto e meios de transporte. Permite o cadastro de cidades, trajetos, transportes e passageiros, além de calcular e simular viagens entre as cidades.
 
-COMO RODAR O PROJETO NO GDB ONLINE
+ATUALIZAR POIS O GDB LIMITA A QUANTIDADE DE ARQUIVOS
 
+//
 1. Abra o navegador e vá para https://www.onlinegdb.com.
 
 2. No site, selecione a linguagem de programação que é utilizada no projeto, o C++. Isso pode ser feito clicando na caixa no canto superior esquerdo onde aparece "Language".
@@ -26,3 +27,4 @@ Code, Compile, Run and Debug online from anywhere in world.*
 *main*
 
 6. Após essa configuração, clique no botão "Run", localizado no canto superior direito da tela. O código deverá ser executado com sucesso em um terminal que aparecerá na parte debaixo da tela.
+//
